@@ -21,7 +21,7 @@ public class database {
 
     public static void insertAdminOrNormalUser(String username, String pass, int idx) {
         try {
-            Connection myConn = DriverManager.getConnection("jdbc:mysql://localhost:3306/myDatabase", "root", "12345");
+            Connection myConn = DriverManager.getConnection("jdbc:mysql://localhost:3306/myDatabase", "root", "Subhrat@1234");
             Statement myStmt = myConn.createStatement();
             String insert;
             if (idx == 1) {
